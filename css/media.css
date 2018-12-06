@@ -39,8 +39,8 @@
 }
 @media screen and (max-width: 730px){
 	/* hidden menu block*/	
-	.burger{
-		right: 44px;
+	.burger-container{
+		right: 5%;
 	}
 	/* hero styles */
 	.hero_wrapper h1 {

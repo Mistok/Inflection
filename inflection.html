@@ -4,35 +4,48 @@
 	<title>Inflection</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalise.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/burger.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" ></script>
-	<script src="js/Inflection.js"></script>
 </head>
 <body>
 	<header id="main_menu_id">
 		<div class="head_wrapper">
 			<a class="logo" href="main_site.html"><img src="img/inflection-logo.png" alt="inflection-logo"></a>
 			<nav>
-			<ul class="main_menu" id="main_menu">
-				<li class="main_menu_item"><a href="" class="main_link">TRUST & SAFETY</a></li>
-				<li class="main_menu_item"><a href="" class="main_link">Product</a></li>
-				<li class="main_menu_item"><a href="" class="main_link">About</a>
-					<ul id="about_submenu" class="about_submenu">
-						<li class="about_submenu_item"><a href="#team">Leadership Team</a></li>
-						<li class="about_submenu_item"><a href="#news">In The News</a></li>
-						<li class="about_submenu_item"><a href="#story">Our Story</a></li>
-						<li class="about_submenu_item"><a href="#values">Core Values</a></li>
-					</ul>
-				</li>
-				<li class="main_menu_item"><a href="" class="main_link">Careers</a></li>
-				<li class="main_menu_item"><a href="" class="main_link">Blog</a></li>
-			</ul>
+				<ul class="main_menu" id="main_menu">
+					<li class="main_menu_item"><a href="#" class="main_link">TRUST & SAFETY</a></li>
+					<li class="main_menu_item"><a href="#" class="main_link">Product</a></li>
+					<li class="main_menu_item"><a href="#" class="main_link">About</a>
+						<ul id="about_submenu" class="about_submenu">
+							<li class="about_submenu_item"><a href="#team">Leadership Team</a></li>
+							<li class="about_submenu_item"><a href="#news">In The News</a></li>
+							<li class="about_submenu_item"><a href="#story">Our Story</a></li>
+							<li class="about_submenu_item"><a href="#values">Core Values</a></li>
+						</ul>
+					</li>
+					<li class="main_menu_item"><a href="#" class="main_link">Careers</a></li>
+					<li class="main_menu_item"><a href="#" class="main_link">Blog</a></li>
+				</ul>
 			</nav>
-		</div>	
-		<div class="burger">
-			<div class="nav_line"></div>
-		</div>	
+		</div>
+
+		<div class="burger-container">
+			<input type="checkbox" id="HUMcheckbox" class="checkbox visuallyHidden">
+			<label for="HUMcheckbox">
+				<div class="hamburger">
+					<span class="bar bar1"></span>
+					<span class="bar bar2"></span>
+					<span class="bar bar3"></span>
+					<span class="bar bar4"></span>
+					<span class="bar bar5"></span>
+				</div>
+			</label>
+		</div>
+
 		<div class="hidden_menu" id="hidden_menu"></div>
 	</header>
 	<div class="content_container">
@@ -40,7 +53,7 @@
 				<div class="hero_wrapper">
 					<h1>WE'RE ON A MISSION</h1>
 					<p>Inflection's goal is to build trust on the Internet, so peoplecan connect with confidence online and in person.</p>
-					<a href="">OUR STORY</a>
+					<a href="#">OUR STORY</a>
 				</div>
 		</div>
 		<section class="mission" id="mission">
@@ -57,159 +70,169 @@
 				<div class="team_wrapper clearfix">
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img id='monochrome' src="img/team/team-mate-m1.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c1.jpg" alt="" id='color' class="color">		
+							<img src="img/team/team-mate-m1.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c1.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>
 						<a href="#" class='clearfix'>
-							<img id='monochrome' src="img/team/team-mate-m2.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c2.jpg" alt="" id='color' class="color">		
+							<img  src="img/team/team-mate-m2.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c2.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m3.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c3.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m3.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c3.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m4.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c4.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m4.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c4.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m5.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c5.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m5.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c5.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m1.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c1.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m1.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c1.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m2.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c2.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m2.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c2.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m3.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c3.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m3.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c3.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m4.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c4.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m4.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c4.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m5.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c5.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m5.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c5.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m1.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c1.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m1.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c1.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m2.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c2.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m2.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c2.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m3.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c3.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m3.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c3.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m4.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c4.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m4.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c4.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m5.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c5.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m5.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c5.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m1.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c1.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m1.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c1.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m2.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c2.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m2.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c2.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m3.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c3.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m3.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c3.jpg" alt="team mate #" class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m4.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c4.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m4.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c4.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m5.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c5.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m5.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c5.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m1.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c1.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m1.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c1.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m2.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c2.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m2.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c2.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m3.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c3.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m3.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c3.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m4.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c4.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m4.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c4.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 					<figure>						
 						<a href="#" class='clearfix'>
-							<img src="img/team/team-mate-m5.jpg" alt="" class="monochrome">
-							<img src="img/team/team-mate-c5.jpg" alt="" id='color' class="color">
+							<img src="img/team/team-mate-m5.jpg" alt="team mate #" class="monochrome">
+							<img src="img/team/team-mate-c5.jpg" alt="team mate #"  class="color">
 						</a>
 					</figure>
 				</div>
 				<div class="team_wrapper">
 				<h2>Our Investors</h2>
-					<figure><img src="img/team/investor1.jpeg" alt="" class="monochrome"></figure>
-					<figure><img src="img/team/investor2.jpeg" alt="" class="monochrome"></figure>
+					<figure>
+						<a href="#" class='clearfix'>
+							<img src="img/team/investor1.jpeg" alt="investor1" class="monochrome">
+							<img src="img/team/investor1.jpeg" alt="investor1" class="color">
+						</a>
+					</figure>
+					<figure>
+						<a href="#" class='clearfix'>
+							<img src="img/team/investor2.jpeg" alt="investor2" class="monochrome">
+							<img src="img/team/investor2.jpeg" alt="investor2" class="color">
+						</a>
+					</figure>
 				</div>
 			</div>
 		</section>
@@ -218,16 +241,16 @@
 				<h1>in the news</h1>
 				<div class="left_coll">
 					<h2>Latest Stories</h2>
-					<a href="" class="news_link">‘Humanizing’ Background Checks Benefits Job Seekers and Employers (SHRM.org)</a>
-					<a href="" class="news_link">10 New Age HR Software Solutions for 2017 (Entrepreneur Magazine)</a>
-					<a href="" class="news_link">7 of the Most Reliable Employment Screening Services (TechnologyAdvice)</a>
+					<a href="#" class="news_link">‘Humanizing’ Background Checks Benefits Job Seekers and Employers (SHRM.org)</a>
+					<a href="#" class="news_link">10 New Age HR Software Solutions for 2017 (Entrepreneur Magazine)</a>
+					<a href="#" class="news_link">7 of the Most Reliable Employment Screening Services (TechnologyAdvice)</a>
 					<a href="#" class="see_more">see more</a>
 				</div>
 				<div class="right_coll">
 					<h2>Press Releases</h2>
-					<a href="" class="news_link">Inflection Earns Certified B Corporation Credential</a>
-					<a href="" class="news_link">Identity Theft Startup Civic Plans To Stop Identity Fraud Before It Happens</a>
-					<a href="" class="news_link">GoodHire Launches First Employment Screening Solution That Allows Job Seekers To Add Context to Any Record</a>
+					<a href="#" class="news_link">Inflection Earns Certified B Corporation Credential</a>
+					<a href="#" class="news_link">Identity Theft Startup Civic Plans To Stop Identity Fraud Before It Happens</a>
+					<a href="#" class="news_link">GoodHire Launches First Employment Screening Solution That Allows Job Seekers To Add Context to Any Record</a>
 					<a href="#" class="see_more">see more</a>
 				</div>
 			</div>
@@ -249,40 +272,40 @@
 				</div>
 			</div>
 			<div class="long_story">
-				<div class="long_story_wrapper clearfix">
+				<div class="long_story_wrapper clearfix"  >
 					<div class="timeline"></div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block" data-wow-offset="25" data-wow-duration="2s">
 						<h3>B-ING THE CHANGE</h3>
 						<p>Inflection becomes a <a href="#" class="story_link">Certified B Corp</a>, joining more than 1,800 organizations dedicated to using the power of business to solve social and environmental problems.</p>
 					</div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block"  data-wow-offset="50" data-wow-duration="2s">
 						<img src="img/story/Comments_for_Context_B2B_v1.png" alt="Comments_for_Context">
 						<h3>TRUE ME</h3>
 						<p>GoodHire launches <a href="#" class="story_link">True Me</a> to humanize background screening and reduce systemic inequality by giving people control over their own information, including the ability to add context to criminal records.</p>
 					</div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block"  data-wow-offset="125" data-wow-duration="2s">
 						<h3>BUILDING IN TRUST</h3>
 						<p>Inflection distills nine years of people data and privacy work into <a href="#" class="story_link">powerful APIs</a> that help the on-demand economy enable trust at scale.</p>
 					</div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block"  data-wow-offset="125" data-wow-duration="2s">
 						<img src="img/story/20140911-PSLaunch-800px.jpg" alt="2">
 						<h3>PRIVACY-FIRST SEARCH</h3>
 						<p>The <a href="#" class="story_link">PeopleSmart</a> redesign emphasizes simple, privacy-first search on mobile, desktop, and tablets.</p>
 					</div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block"  data-wow-offset="135" data-wow-duration="2s">
 						<h3>YOUR DATA, YOUR CONTROL</h3>
 						<p>Identity.com launches to help people trust people they meet online through <a href="#" class="story_link">a universal iD card</a> and <a href="#" class="story_link">identity verification.</a></p>
 					</div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block"  data-wow-offset="50" data-wow-duration="2s">
 						<h3>SCREENING WITH CARE</h3>
 						<p><a href="#" class="story_link">GoodHire</a> debuts to help companies build great teams and adapt to the changing nature of work in an on-demand world.</p>
 					</div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block"  data-wow-offset="75" data-wow-duration="2s">
 						<img src="img/story/namaste.jpg" alt="3">
 						<h3>SUPPORTING EXCEPTIONAL NONPROFITS</h3>
 						<p>The <a href="#" class="story_link">Namaste Foundation</a> opens its metaphorical doors with a $4 million gift from cofounders Matthew and Brian.</p>
 					</div>
-					<div class="story_block">
+					<div class="wow fadeInUp story_block" data-wow-offset="50" data-wow-duration="2s">
 						<img src="img/story/archives2.jpg" alt="4">
 						<h3>ONE FOR THE RECORDS BOOK</h3>
 						<p>Ancestry.com buys the Archives.com business for $100 million. Inflection says a fond farewell to 40 Archives staffers who joined Ancestry as part of the deal.</p>
@@ -439,5 +462,10 @@
 			</div>
 		</footer>
 	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" ></script>
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<script src="js/Inflection.js"></script>
 </body>
 </html>
